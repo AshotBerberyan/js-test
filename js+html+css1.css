@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #dbdbdb;
+}
+
+.header{
+    width: 100%;
+    /*position: fixed;*/
+    top: 0;
+    background-color: white;
+}
+
+.head-content{
+    width: 70%;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    color: #5A1094;
+}
+
+.head-name{
+    vertical-align: center;
+}
+
+/*++++++++++++++++++++++++++ main content ++++++++++++++++++++++++++++++*/
+
+.main-content{
+    width: 700px;
+    margin: 100px auto;   /*??????*/
+    background-color: white;
+}
+
+.form{
+    width: 60%;
+    position: relative;
+}
+
+.links{
+    /*position: fixed;*/
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.form-name{
+    color: #979797;
+    font-size: 12px;
+}
+
+.arrow{
+    width: 10px;
+    height: 10px;
+    margin-left: 5px;
+    margin-right: 10px;
+    border-bottom: 1px solid #979797;
+    border-right: 1px solid #979797;
+    border-top: none rgba(255,255,255,0);
+    border-left: none rgba(255,255,255,0);
+    transform: rotate(-45deg);
+}
+
+.form-container{
+    width: 100%;
+    padding: 10px;
+    position: relative;
+}
+
+.shipping{
+    width: 100%;
+    /*position: absolute;*/
+
+}
+
+.form-title{
+    font-size: 26px;
+    color: #5A1094;
+}
+
+
+
+
+
+
+
+
+
+
+
+.order{
+    width: 40%;
+}
+
+
+
+
+
+
+
